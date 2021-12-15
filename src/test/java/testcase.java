@@ -62,5 +62,6 @@ public class testcase extends tetsttt {
         Selenide.sleep(5000);
         Assert.assertTrue(dangerColl.getText().contains("Имя должно быть от 1 до 32 символов!"));
 
+
     }
 }
